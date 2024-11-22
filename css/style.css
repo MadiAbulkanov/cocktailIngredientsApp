@@ -1,0 +1,159 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  background: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.navbar-brand {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  margin-right: 10px;
+}
+
+.card_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.card {
+  margin-bottom: 10px;
+
+}
+
+.card-img {
+  width: 300px;
+  height: 300px;
+}
+
+.color-overlay {
+  display: none;
+  position:absolute;
+  top: 0;
+  width:100%;
+  height:100%;
+  z-index:1;
+  background-color: rgb(0 0 0 / 61%);
+}
+
+.modal-information {
+  display: none;
+  position: absolute;
+  z-index:2;
+  top: 200px;
+  left: 0;
+  right: 0;
+  max-width: 700px;
+  border: 1px solid #c8c8c8;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.modal-header {
+  border-bottom: 1px solid #c8c8c8;
+  padding: 20px 10px;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+.modal-subtitle {
+  padding: 15px 10px;
+  font-size: 18px;
+}
+
+.ingredients {
+  text-align: center;
+}
+
+.ingredient {
+  display: inline-block;
+  padding: 10px;
+  font-weight: 700;
+  margin: 5px;
+}
+
+.ingredient p {
+  padding: 10px;
+}
+
+li span {
+  font-weight: 100;
+  color: #857e7ec8;
+}
+
+.modal-text, .category, .type, .glass {
+  margin-left: 25px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+}
